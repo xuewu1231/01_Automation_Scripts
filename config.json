@@ -1,0 +1,82 @@
+{
+    "templates_dir": "templates",
+    "reports_dir": "reports",
+    "history_file": "history.json",
+    "file_format": ".txt",
+    "date_format": "%Y-%m-%d",
+    "default_encoding": "utf-8",
+    "auto_fill_fields": ["日期", "周次"],
+    "export_pdf": false,
+    "backup_enabled": true,
+    "backup_dir": "backups",
+    "max_backup_count": 10,
+    "template_settings": {
+        "work_report": {
+            "name": "工作周报",
+            "description": "用于记录每周工作内容和计划",
+            "default_template": "work_report_template.md",
+            "required_fields": ["项目进展", "重要会议"]
+        },
+        "study_report": {
+            "name": "学习周报",
+            "description": "用于记录每周学习进度和心得",
+            "default_template": "study_report_template.md",
+            "required_fields": ["学习内容", "知识要点"]
+        },
+        "project_report": {
+            "name": "项目周报",
+            "description": "用于项目管理和进度跟踪",
+            "default_template": "project_report_template.md",
+            "required_fields": ["完成工作", "技术难点", "风险问题"]
+        },
+        "personal_summary": {
+            "name": "个人总结",
+            "description": "用于个人工作和成长总结",
+            "default_template": "personal_summary_template.md",
+            "required_fields": ["工作内容", "工作成果", "技能进步"]
+        },
+        "team_report": {
+            "name": "团队周报",
+            "description": "用于团队管理和协作汇报",
+            "default_template": "team_report_template.md",
+            "required_fields": ["总体进展", "工作分配", "团队氛围"]
+        }
+    },
+    "ui_settings": {
+        "preview_separator": "=",
+        "theme": {
+            "primary_color": "#007bff",
+            "secondary_color": "#6c757d",
+            "success_color": "#28a745",
+            "error_color": "#dc3545"
+        },
+        "preview_enabled": true,
+        "auto_save": true,
+        "auto_save_interval": 300,
+        "max_recent_files": 10
+    },
+    "analysis_settings": {
+        "word_cloud_enabled": true,
+        "charts_enabled": true,
+        "min_words_for_analysis": 100,
+        "max_keywords": 20,
+        "exclude_words": ["的", "了", "和", "与", "或", "在", "是", "我", "有", "这"]
+    },
+    "notification_settings": {
+        "enabled": true,
+        "reminder_days": [5],
+        "reminder_time": "10:00",
+        "channels": ["desktop", "email"]
+    },
+    "notification": {
+        "enabled": true,
+        "reminder_day": "Friday",
+        "reminder_time": "17:00"
+    },
+    "statistics": {
+        "enabled": true,
+        "track_fields": ["项目进展", "学习内容"],
+        "word_count": true,
+        "frequency": true
+    }
+} 
