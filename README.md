@@ -127,6 +127,14 @@ weekly-report-generator/
 
 欢迎提交 Issue 和 Pull Request 来帮助改进项目。
 
+## 联系方式
+
+如果您在使用过程中遇到任何问题，欢迎通过以下方式联系我们：
+
+- GitHub Issues: [提交问题](https://github.com/xuewu1231/01_Automation_Scripts/issues)
+- 电子邮件：您的邮箱（可选）
+- QQ 交流群：XXXXXX（可选）
+
 ## 许可证
 
 MIT License
